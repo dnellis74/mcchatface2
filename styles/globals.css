@@ -1,3 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Secular+One&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+body {
+	background-color:limegreen;
+	background-image: url('/img/bg.jpg')
+}
+
+/* Set the font for the entire page */
+body {
+  font-family: Impact, sans-serif;
+}
+
+
+/* Style the chat container */
+.chat {
+  background-color: white;
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+/* Style the footer */
+.footer {
+  background-color: lightblue;
+  padding: 10px;
+}
+
+.reset-button{
+	background-color: rgba(33,00,33,0.2)!important;
+	border-radius: 15px;
+	margin:15px;
+	font-family: 'Lilita One', sans-serif;
+	font-size: 25pt;
+
+}
+
+.ganjai-msg {
+	background-color: rgba(33,00,33,0.2);
+	color:white;
+    font-family: 'Secular One', sans-serif;
+}
+.user-msg {
+	background-color: rgba(200,255,255,0.2);
+		color:white;
+    font-family: 'Secular One', sans-serif;
+}
+.chat-div {
+	flex-wrap: wrap;
+	padding-top:20px;
+    min-height: calc(100vh - 140px);
+}
+.chat-window {
+  background-color: #333;
+  border: 14px solid #222;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+  margin: 50px;
+
+
+}
+
+.chat-window::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  bottom: -50px;
+  left: -20px;
+  border: 130px solid #252525;
+  z-index: -1;
+  border-radius: 15px;
+
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.sloth {
+  position: absolute;
+  top: -200px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+}
+
+.sloth img {
+  display: block;
+  max-width: 100%;
+  height:286px;
+}
+
+.chat-box {
+	margin:25px;
+	position: relative;
+	  	top:200px;
+}
+
+.lavalamp {
+	padding-left: 150px;
+}
+
+.site-branding {
+	font-family: 'Lilita One', cursive;
+}
+
+.navbar-top {
+	background-color: red;
+}
+
+.footer-bottom {
+  background: linear-gradient(to bottom, #003c1f, #006b44);
+  min-height:80px;
+}
+
+.footer-bottom p{
+	  margin:auto;
+	      font-family: 'Secular One', sans-serif;
+}
+.footer-bottom a:hover {
+	color: teal;
+	transition: ease 0.2s;
+}
