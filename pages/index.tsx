@@ -80,7 +80,7 @@ export default function Home() {
     setMessages([
       {
         role: "assistant",
-        content: `Hey bro, it's Bud, your bud!  Whatcha wanna rap about?`
+        content: `Whoa, what just happened? I felt like a total disturbance in the force just then. Spooky! Anyhow, you wanna chill with me dude?`
       }
     ]);
   };
@@ -104,9 +104,7 @@ export default function Home() {
         <title>ChatTHC.ai</title>
         <meta
           name="description"
-          content="Hey there, my fellow high beings! Welcome to ChatTHC, where all things ganja-related are celebrated. My name is Ganjai, and I'm your guide on this blissful journey. Sit back, relax, and let's dive deep into the world of cannabis together!
-
-For real dudes, just hit me with a question. Anything you wanna know about, let's just vibe and talk it out, you know? Like, let's get philosophical, or maybe just talk about the best pizza toppings when you've got the munchies."
+          content="Hey there, my fellow high beings! Welcome to ChatTHC, where all things ganja-related are celebrated. My name is Ganjai, and I'm your guide on this blissful journey. Sit back, relax, and let's dive deep into the world of cannabis together! For real dudes, just hit me with a question. Anything you wanna know about, let's just vibe and talk it out, you know? Like, let's get philosophical, or maybe just talk about the best pizza toppings when you've got the munchies."
         />
         <meta
           name="viewport"
@@ -121,8 +119,16 @@ For real dudes, just hit me with a question. Anything you wanna know about, let'
       <div className="flex flex-col h-screen">
         <Navbar />
 
-        <div className="flex-1 overflow-auto sm:px-10 pb-4 sm:pb-10">
-          <div className="max-w-[800px] mx-auto mt-4 sm:mt-12">
+        <div className="flex flex-row overflow-auto sm:px-10 pb-4 sm:pb-10 chat-div">
+
+          <div className="max-w-[800px] mx-auto mt-4 sm:mt-12 chat-box">
+
+
+                <div className="sloth">
+      <img src="/img/logo2.png" />
+      </div>
+
+      
             <Chat
               messages={messages}
               loading={loading}
@@ -130,7 +136,15 @@ For real dudes, just hit me with a question. Anything you wanna know about, let'
               onReset={handleReset}
             />
             <div ref={messagesEndRef} />
+
+
           </div>
+
+
+            <div className="flex-1 lavalamp">
+Lava Lamp goes here
+</div>
+
         </div>
         <Footer />
       </div>
