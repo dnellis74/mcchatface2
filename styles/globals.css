@@ -8,7 +8,7 @@
 
 body {
 	background-color:limegreen;
-	background-image: url('/img/bg.jpg')
+	background-image: url('https://s3.us-west-2.amazonaws.com/chatthc.ai/bg.jpg')
 }
 
 /* Set the font for the entire page */

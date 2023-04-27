@@ -125,7 +125,7 @@ export default function Home() {
 
 
                 <div className="sloth">
-      <img src="/img/logo2.png" />
+      <img src="https://s3.us-west-2.amazonaws.com/chatthc.ai/logo2.png" />
       </div>
 
       
