@@ -35,6 +35,7 @@ body {
 	border-radius: 15px;
 	margin:15px;
 	font-family: 'Lilita One', sans-serif;
+	font-size: 25pt;
 
 }
 
@@ -44,7 +45,9 @@ body {
     font-family: 'Secular One', sans-serif;
 }
 .user-msg {
-	background-color: red;
+	background-color: rgba(200,255,255,0.2);
+		color:white;
+    font-family: 'Secular One', sans-serif;
 }
 .chat-div {
 	flex-wrap: wrap;
@@ -110,4 +113,13 @@ body {
 .footer-bottom {
   background: linear-gradient(to bottom, #003c1f, #006b44);
   min-height:80px;
+}
+
+.footer-bottom p{
+	  margin:auto;
+	      font-family: 'Secular One', sans-serif;
+}
+.footer-bottom a:hover {
+	color: teal;
+	transition: ease 0.2s;
 }
