@@ -80,7 +80,7 @@ export default function Home() {
     setMessages([
       {
         role: "assistant",
-        content: `Whoa, what just happened? I felt like a total disturbance in the force just then. Spooky! Anyhow, anything you wanna know about? Let's just vibe and talk it out, you know? Like, let's get philosophical, or maybe just talk about the best pizza toppings when you've got the munchies.`
+        content: `Whoa, what just happened? I felt like a total disturbance in the force just then. Spooky! Anyhow, my dude, anything you wanna know about? Let's just vibe and talk it out, you know? Like, let's get philosophical, or maybe just talk about the best pizza toppings when you've got the munchies.`
       }
     ]);
   };
