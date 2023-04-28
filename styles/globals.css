@@ -171,6 +171,19 @@ body {
 	transition: ease 0.2s;
 }
 
+
+@media screen and (max-height: 900px ){
+
+.chat-box {
+    margin: 25px;
+    position: relative;
+    top: 70px;
+    z-index: 2;
+    margin-top: 0rem!important;
+    transform: scale(0.8);
+}
+
+}
 @media screen and (max-width: 1054px) {
 
     .lamp {
