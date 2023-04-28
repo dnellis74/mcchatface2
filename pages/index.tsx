@@ -144,14 +144,14 @@ export default function Home() {
             <div className="flex-1 lavalamp">
 
 
-<div class="lamp">
-  <div class="glass">
-    <div class="lava">
-      <div class="blob"></div>
-      <div class="blob"></div>
-      <div class="blob"></div>
-      <div class="blob top"></div>
-      <div class="blob bottom"></div>
+<div className="lamp">
+  <div className="glass">
+    <div className="lava">
+      <div className="blob"></div>
+      <div className="blob"></div>
+      <div className="blob"></div>
+      <div className="blob top"></div>
+      <div className="blob bottom"></div>
     </div>
   </div>
 </div>
