@@ -15,9 +15,7 @@ interface Props {
 export const Chat: FC<Props> = ({ messages, loading, onSend, onReset }) => {
   return (
     <>
-          <div className="sloth">
-      <img src="https://s3.us-west-2.amazonaws.com/chatthc.ai/logo2.png" />
-      </div>
+
 
 
 
