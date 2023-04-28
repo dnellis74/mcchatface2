@@ -139,7 +139,7 @@ body {
   width: 30vh;
   min-width: calc(300px * 3 / 7);
   background: #2b4353;
-    background-image: linear-gradient(to bottom right, #6e7e8c, #b0b7bd, #6e7e8c);
+    background-image:url('https://i.ibb.co/rm3zZgw/lamp-texture.jpg');
   clip-path: polygon(33% 0, 0 70%, 22% 88%, 0 100%, 100% 100%, 78% 88%, 100% 70%, 67% 0);
 }
 .glass{
