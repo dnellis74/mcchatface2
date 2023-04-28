@@ -89,6 +89,10 @@ body {
   position: relative;
   margin: 50px 0;
 }
+.chat-div {
+      overflow-y: auto;
+    overflow-x: hidden;
+}
 
 .ganjai-msg {
   background-color: rgba(33,00,33,0.2);
