@@ -153,7 +153,7 @@ body {
 }
 
 .navbar-top {
-	background-color: red;
+	background-color: #f7ffed;
 }
 
 .footer-bottom {
@@ -190,6 +190,19 @@ body {
   background: #2b4353;
     background-image:url('https://i.ibb.co/rm3zZgw/lamp-texture.jpg');
   clip-path: polygon(33% 0, 0 70%, 22% 88%, 0 100%, 100% 100%, 78% 88%, 100% 70%, 67% 0);
+}
+
+.lamp::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  bottom: -10px;
+  left: -10px;
+  z-index: -1;
+  background: transparent;
+background: #87c08d24;
+    clip-path: polygon(39% 1%, 8% 70%, 28% 87%, 13% 97%, 98% 98%, 79% 86%,101% 73%,70% 0% );
 }
 .glass{
   background: #dfff5bad;
