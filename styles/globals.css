@@ -126,13 +126,18 @@ body {
 	transition: ease 0.2s;
 }
 
+@media screen and (max-width: 1054px) {
 
+    .lamp {
+  display:none;
+    }
+  }
 /* lavalamp */
 .lamp{
      position: fixed;
     /* top: 50%; */
     right: 100px;
-    bottom: 50px;
+    bottom: 61px;
   
   height: 70vh;
   min-height: 300px;
@@ -149,6 +154,7 @@ body {
   position: absolute;
   bottom: 30%;
   overflow: hidden;
+    box-shadow: 0 0 15px #fff900;
 }
 .lava{
   filter: url("#goo");

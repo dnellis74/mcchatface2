@@ -101,6 +101,7 @@ export default function Home() {
   return (
     <>
       <Head>
+
         <title>ChatTHC.ai</title>
         <meta
           name="description"
@@ -114,6 +115,7 @@ export default function Home() {
           rel="icon"
           href="/favicon.ico"
         />
+        
       </Head>
 
       <div className="flex flex-col h-screen">
