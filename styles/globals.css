@@ -104,6 +104,18 @@ body {
     max-width: 91%;
     margin-top: 5px;
 }
+
+.footer-bottom {
+  background: linear-gradient(to bottom, #003c1f, #006b44);
+  min-height:100px!important;
+  text-align: center;
+}
+
+.footer-bottom p{
+    margin:auto;
+        font-family: 'Secular One', sans-serif;
+        font-size: small;
+}
 }
 
 .sloth {
