@@ -80,7 +80,7 @@ export default function Home() {
     setMessages([
       {
         role: "assistant",
-        content: `Hey bro, it's Bud, your bud!  Whatcha wanna rap about?`
+        content: `Whoa, what just happened? I felt like a total disturbance in the force just then. Spooky! Anyhow, my dude, anything you wanna know about? Let's just vibe and talk it out, you know? Like, let's get philosophical, or maybe just talk about the best pizza toppings when you've got the munchies.`
       }
     ]);
   };
@@ -101,12 +101,11 @@ export default function Home() {
   return (
     <>
       <Head>
+
         <title>ChatTHC.ai</title>
         <meta
           name="description"
-          content="Hey there, my fellow high beings! Welcome to ChatTHC, where all things ganja-related are celebrated. My name is Ganjai, and I'm your guide on this blissful journey. Sit back, relax, and let's dive deep into the world of cannabis together!
-
-For real dudes, just hit me with a question. Anything you wanna know about, let's just vibe and talk it out, you know? Like, let's get philosophical, or maybe just talk about the best pizza toppings when you've got the munchies."
+          content="Hey there, my fellow high beings! Welcome to ChatTHC, where all things ganja-related are celebrated. My name is Ganjai, and I'm your guide on this blissful journey. Sit back, relax, and let's dive deep into the world of cannabis together! For real dudes, just hit me with a question. Anything you wanna know about, let's just vibe and talk it out, you know? Like, let's get philosophical, or maybe just talk about the best pizza toppings when you've got the munchies."
         />
         <meta
           name="viewport"
@@ -116,13 +115,22 @@ For real dudes, just hit me with a question. Anything you wanna know about, let'
           rel="icon"
           href="/favicon.ico"
         />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
 
       <div className="flex flex-col h-screen">
         <Navbar />
 
-        <div className="flex-1 overflow-auto sm:px-10 pb-4 sm:pb-10">
-          <div className="max-w-[800px] mx-auto mt-4 sm:mt-12">
+        <div className="flex flex-row overflow-auto sm:px-10 pb-4 sm:pb-10 chat-div">
+
+          <div className="max-w-[800px] mx-auto mt-4 sm:mt-12 chat-box">
+
+
+                <div className="sloth">
+      <img src="https://i.ibb.co/rsX1GjX/sloth2.png" />
+      </div>
+
+      
             <Chat
               messages={messages}
               loading={loading}
@@ -130,7 +138,40 @@ For real dudes, just hit me with a question. Anything you wanna know about, let'
               onReset={handleReset}
             />
             <div ref={messagesEndRef} />
+
+
           </div>
+
+
+            <div className="flex-1 lavalamp">
+
+
+<div className="lamp">
+  <div className="glass">
+    <div className="lava">
+      <div className="blob"></div>
+      <div className="blob"></div>
+      <div className="blob"></div>
+      <div className="blob top"></div>
+      <div className="blob bottom"></div>
+    </div>
+  </div>
+</div>
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <defs>
+    <filter id="goo">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+      <feBlend in="SourceGraphic" in2="goo" />
+    </filter>
+  </defs>
+</svg>
+
+
+
+</div>
+
         </div>
         <Footer />
       </div>

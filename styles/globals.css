@@ -1,3 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Secular+One&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+body {
+	background-color:limegreen;
+	background-image: url('https://s3.us-west-2.amazonaws.com/chatthc.ai/bg.jpg');
+  background-size: cover;
+}
+
+/* Set the font for the entire page */
+body {
+  font-family: Impact, sans-serif;
+}
+
+
+/* Style the chat container */
+.chat {
+  background-color: white;
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+/* Style the footer */
+.footer {
+  background-color: lightblue;
+  padding: 10px;
+}
+
+.reset-button{
+	background-color: rgba(33,00,33,0.2)!important;
+	border-radius: 15px;
+	margin:15px;
+	font-family: 'Lilita One', sans-serif;
+	font-size: 25pt;
+
+}
+
+.ganjai-msg {
+	background-color: rgba(33,00,33,0.2);
+	color:white;
+    font-family: 'Secular One', sans-serif;
+}
+.user-msg {
+	background-color: rgba(200,255,255,0.2);
+		color:white;
+    font-family: 'Secular One', sans-serif;
+}
+.chat-div {
+	flex-wrap: wrap;
+	padding-top:20px;
+    min-height: calc(100vh - 140px);
+}
+.chat-window {
+  background-color: #333;
+  border: 14px solid #222;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+  margin: 50px;
+
+
+}
+
+.chat-window::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  bottom: -50px;
+  left: -20px;
+  border: 130px solid #252525;
+  z-index: -1;
+  border-radius: 15px;
+
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+/*mobile screens */
+
+@media screen and (max-width: 600px) {
+.chat-window {
+  background-color: #333;
+  border: 14px solid #222;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+  margin: 50px 0;
+}
+.chat-div {
+      overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.ganjai-msg {
+  background-color: rgba(33,00,33,0.2);
+  color:white;
+    font-family: 'Secular One', sans-serif;
+    max-width: 91%;
+    margin-top: 5px;
+}
+.user-msg {
+  background-color: rgba(200,255,255,0.2);
+    color:white;
+    font-family: 'Secular One', sans-serif;
+    max-width: 91%;
+    margin-top: 5px;
+}
+
+.footer-bottom {
+  background: linear-gradient(to bottom, #003c1f, #006b44);
+  min-height:100px!important;
+  text-align: center;
+}
+
+.footer-bottom p{
+    margin:auto;
+        font-family: 'Secular One', sans-serif;
+        font-size: small;
+}
+}
+
+.sloth {
+  position: absolute;
+  top: -218px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+      width: 254px;
+}
+
+.sloth img {
+  display: block;
+  max-width: 100%;
+  height:286px;
+}
+
+.chat-box {
+	margin:25px;
+	position: relative;
+	  	top:200px;
+      z-index: 2;
+      margin-top: 0rem!important;
+}
+
+.lavalamp {
+	padding-left: 150px;
+}
+
+.site-branding {
+	font-family: 'Lilita One', cursive;
+}
+
+.navbar-top {
+	background-color: #f7ffed;
+}
+
+.footer-bottom {
+  background: linear-gradient(to bottom, #003c1f, #006b44);
+  min-height:80px;
+}
+
+.footer-bottom p{
+	  margin:auto;
+	      font-family: 'Secular One', sans-serif;
+}
+.footer-bottom a:hover {
+	color: teal;
+	transition: ease 0.2s;
+}
+
+
+@media screen and (max-height: 900px ){
+
+.chat-box {
+    margin: 25px;
+    position: relative;
+    top: 70px;
+    z-index: 2;
+    margin-top: 0rem!important;
+    transform: scale(0.8);
+}
+
+}
+
+@media screen and (max-width: 600px ){
+
+.chat-box {
+      top: 140px;
+      margin-top: 3rem!important;
+    transform: scale(1);
+}
+
+}
+
+@media screen and (max-width: 1054px) {
+
+    .lamp {
+  display:none;
+    }
+  }
+/* lavalamp */
+.lamp{
+     position: fixed;
+    /* top: 50%; */
+    right: 100px;
+    bottom: 61px;
+  
+  height: 70vh;
+  min-height: 300px;
+  width: 30vh;
+  min-width: calc(300px * 3 / 7);
+  background: #2b4353;
+    background-image:url('https://i.ibb.co/rm3zZgw/lamp-texture.jpg');
+  clip-path: polygon(33% 0, 0 70%, 22% 88%, 0 100%, 100% 100%, 78% 88%, 100% 70%, 67% 0);
+}
+
+.lamp::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  bottom: -10px;
+  left: -10px;
+  z-index: -1;
+  background: transparent;
+background: #87c08d24;
+    clip-path: polygon(39% 1%, 8% 70%, 28% 87%, 13% 97%, 98% 98%, 79% 86%,101% 73%,70% 0% );
+}
+.glass{
+  background: #dfff5bad;
+  width: 100%;
+  height: 60%;
+  position: absolute;
+  bottom: 30%;
+  overflow: hidden;
+    box-shadow: 0 0 15px #fff900;
+}
+.lava{
+  filter: url("#goo");
+  position:absolute;
+  height:100%;
+  width:100%;
+  top:0;
+  left:0;
+}
+
+.blob{
+  border-radius: 50%;
+  background: #a100df94;
+  position:absolute;
+}
+.blob.top{
+  width: 100%;
+  height: 4%;
+  top: -3.7%;
+  left:0;
+}
+.blob.bottom{
+  width: 100%;
+  height:4%;
+  bottom: -3%;
+  left:0;
+}
+.blob:nth-child(1){
+  width: calc(15% * 1.4);
+  height: 15%;
+  left: 45%;
+  bottom:-15%;
+  
+  animation: blob-one ease-in-out 17s infinite;
+}
+.blob:nth-child(2){
+  width: calc(22% * 1.4);
+  height: 22%;
+  right: 14%;
+  bottom:-15%;
+  
+  animation: blob-two ease-in-out 21s infinite;
+}
+.blob:nth-child(3){
+  width: calc(32% * 1.4);
+  height: 32%;
+  bottom:-15%;
+  left: 14%;
+  
+  animation: blob-three ease-in-out 26s infinite;
+}
+
+@keyframes blob-one{
+  0%, 100%{
+    transform: translatey(0);
+  }
+  50%{
+    transform: translatey(-700%);
+  }
+}
+
+@keyframes blob-two{
+  0%, 100%{
+    transform: translatey(0);
+  }
+  50%{
+    transform: translatey(-420%);
+  }
+}
+
+@keyframes blob-three{
+  0%, 100%{
+    transform: translatey(0);
+  }
+  50%{
+    transform: translatey(-305%);
+  }
+}
