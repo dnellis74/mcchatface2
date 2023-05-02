@@ -93,7 +93,7 @@ export default function Home() {
     setMessages([
       {
         role: "assistant",
-        content: `Hey there, my fellow high beings! Welcome to ChatTHC, where all things ganja-related are celebrated. My name is Ganjai, and I'm your guide on this blissful journey. Sit back, relax, and let's dive deep into the world of cannabis together! For real dudes, just hit me with a question. Anything you wanna know about, let's just vibe and talk it out, you know? Like, let's get philosophical, or maybe just talk about the best pizza toppings when you've got the munchies.`
+        content: `Hey there, my fellow high beings! Welcome to ChatTHC, where all things ganja-related are celebrated. My name is Ganjai, and I'm your guide on this blissful journey. Sit back, relax, and let's dive deep into the world of cannabis together! For real, dudes, just hit me with a question. Anything you wanna know about, let's just vibe and talk it out, you know? Like, let's get philosophical, or maybe just talk about the best pizza toppings when you've got the munchies.`
       }
     ]);
   }, []);
@@ -105,7 +105,7 @@ export default function Home() {
         <title>ChatTHC.ai</title>
         <meta
           name="description"
-          content="Hey there, my fellow high beings! Welcome to ChatTHC, where all things ganja-related are celebrated. My name is Ganjai, and I'm your guide on this blissful journey. Sit back, relax, and let's dive deep into the world of cannabis together! For real dudes, just hit me with a question. Anything you wanna know about, let's just vibe and talk it out, you know? Like, let's get philosophical, or maybe just talk about the best pizza toppings when you've got the munchies."
+          content="Hey there, my fellow high beings! Welcome to ChatTHC, where all things ganja-related are celebrated. My name is Ganjai, and I'm your guide on this blissful journey. Sit back, relax, and let's dive deep into the world of cannabis together! For real, dudes, just hit me with a question. Anything you wanna know about, let's just vibe and talk it out, you know? Like, let's get philosophical, or maybe just talk about the best pizza toppings when you've got the munchies."
         />
         <meta
           name="viewport"
