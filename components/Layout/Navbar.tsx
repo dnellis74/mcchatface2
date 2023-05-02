@@ -6,7 +6,7 @@ export const Navbar: FC = () => {
       <div className="font-bold text-3xl flex items-center site-branding">
         <a
           className="ml-2 hover:opacity-50"
-          href="https://code-scaffold.vercel.app"
+          href="https://chatthc.ai"
         >
           ChatTHC.ai
         </a>
