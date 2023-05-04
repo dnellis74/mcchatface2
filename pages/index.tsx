@@ -113,7 +113,7 @@ export default function Home() {
         />
 <meta property="og:title" content="ChatTHC - Your AI powered weed buddy" />
 <meta property="og:description" content="Join Ganjai on a blissful journey through all things ganja-related. Ask questions, get philosophical, or just talk about the best pizza toppings for the munchies." />
-<meta property="og:image" content="og_image.jpg" />
+<meta property="og:image" content="https://i.ibb.co/wQq0KtQ/0g-image.jpg" />
 <meta property="og:url" content="https://chatthc.ai" />
 <meta property="og:site_name" content="ChatTHC" />
 
