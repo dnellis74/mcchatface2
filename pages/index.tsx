@@ -111,6 +111,12 @@ export default function Home() {
           name="viewport"
           content="width=device-width, initial-scale=1"
         />
+<meta property="og:title" content="ChatTHC - Your AI powered weed buddy" />
+<meta property="og:description" content="Join Ganjai on a blissful journey through all things ganja-related. Ask questions, get philosophical, or just talk about the best pizza toppings for the munchies." />
+<meta property="og:image" content="og_image.jpg" />
+<meta property="og:url" content="https://chatthc.ai" />
+<meta property="og:site_name" content="ChatTHC" />
+
         <link
           rel="icon"
           href="/favicon.ico"
