@@ -127,7 +127,7 @@ export default function Home() {
 
 
                 <div className="sloth">
-      <img src="https://i.ibb.co/rsX1GjX/sloth2.png" />
+      <img src="https://i.ibb.co/ccwCLgn/sloth2a.png" />
       </div>
 
       
