@@ -12,7 +12,7 @@ export const OpenAIStream = async (messages: Message[]) => {
     },
     method: "POST",
     body: JSON.stringify({
-      model: OpenAIModel.DAVINCI_TURBO,
+      model: "gpt-3.5-turbo",
       messages: [
         {
           role: "system",
